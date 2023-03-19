@@ -67,4 +67,4 @@ group :development do
   # gem "spring"
 end
 
-gem 'open_library', '~> 0.1.0'
+gem 'open_library', '~> 0.1.1'
