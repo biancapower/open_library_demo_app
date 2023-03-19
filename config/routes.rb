@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  get 'books/search'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root to: 'books#search'
+  get 'search_books', to: 'books#search'
 end
